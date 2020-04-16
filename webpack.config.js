@@ -20,15 +20,26 @@ module.exports = {
         },
       },
       {
+        test: /\.html$/,
+        use: [
+          {
+            loader: "html-loader",
+          },
+        ],
+      },
+      {
         test: /\.s[ac]ss$/i,
         exclude: /node_modules/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.png$/i,
+        test: /\.(jpe?g|png|svg|gif|ico|webp|eot|ttf|woff|woff2|pdf|mp4|webm)$/i,
         use: [
           {
             loader: "file-loader",
+            options: {
+              outputPath: "assets",
+            },
           },
         ],
       },
