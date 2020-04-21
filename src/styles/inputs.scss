@@ -1,11 +1,22 @@
+.input-container {
+}
+
 .input-primary {
   position: relative;
-  width: 50%;
+  width: 100%;
   border: none;
   border-bottom: 2px solid black;
 }
 
-.newsl__button {
+.btn-input {
+  background: none;
+  border: none;
+}
+
+.input-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
   background: none;
   border: none;
 }

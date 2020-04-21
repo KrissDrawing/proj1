@@ -1,10 +1,10 @@
 .item {
   position: relative;
-  min-width: 241px;
-  max-width: 268px;
-  min-height: 304px;
-  max-height: 338;
-  margin: 50px 15px 70px 15px;
+  // min-width: 241px;
+  // max-width: 268px;
+  // min-height: 304px;
+  // max-height: 338;
+  // margin: 50px 15px 70px 15px;
   display: inline-block;
 
   &:hover {
@@ -30,18 +30,24 @@
     height: auto;
   }
 
-  &__name {
+  &-name {
     position: absolute;
     font-size: 13px;
     left: 19px;
     bottom: 42px;
   }
 
-  &__price {
+  &-price {
     position: absolute;
     font-size: 13px;
     font-weight: bold;
     left: 19px;
     bottom: 19px;
   }
+}
+
+.card-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
