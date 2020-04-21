@@ -12,3 +12,10 @@
   display: flex;
   overflow-x: scroll;
 }
+
+.newsl__container--center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
