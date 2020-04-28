@@ -1,6 +1,7 @@
 .item {
   position: relative;
   display: inline-block;
+  min-width: 330px;
 
   &:hover {
     opacity: 1;
@@ -38,4 +39,8 @@
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+.cover-img {
+  object-fit: cover;
 }

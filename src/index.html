@@ -15,7 +15,7 @@
   </head>
   <body>
   
-
+    <button class="btn rounded-circle bg-light btn-up shadow mb-5 bg-white rounded"><i class="fas fa-arrow-up"></i></button>
     
     <nav class= "container-md bg-transparent position-absolute center-absolute">
       <div class="row">
@@ -62,11 +62,9 @@
   </div>
     </nav>
     
-
     <header class="bg-light header">
-      <img src="https://via.placeholder.com/1920x550" alt="header img" />
+      <img class="cover-img" src="https://via.placeholder.com/1920x550" alt="header img" />
     </header>
-
 
     <div id="carouselExampleControls" class="carousel slide bg-dark" data-ride="carousel">
       <div class="container carousel-inner">
@@ -180,7 +178,7 @@
     <h2 class="display-4 text-center m-5 p-3">New Arrivals</h2>
 
     <main>
-      <div class="container-md my-3">
+      <div id="products-container" class="container-md my-3">
         <div class="row">
           <div class="col-md-3 col-6">
             <div class="item">
@@ -212,12 +210,45 @@
             <div class="w-100"></div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-3 col-6">
+            <div class="item">
+              <img src="https://placekitten.com/309/390" alt="item img" />
+            </div>
+            <p class="name">Product Name</p>
+            <p class="price">Product price</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="item">
+              <img src="https://placekitten.com/309/390" alt="item img" />
+            </div>
+            <p class="name">Product Name</p>
+            <p class="price">Product price</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="item">
+              <img src="https://placekitten.com/309/390" alt="item img" />
+            </div>
+            <p class="name">Product Name</p>
+            <p class="price">Product price</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="item">
+              <img src="https://placekitten.com/309/390" alt="item img" />
+            </div>
+            <p class="name">Product Name</p>
+            <p class="price">Product price</p>
+          </div>
+         </div>
+        </div>
+
         <div class="text-center">
-        <button class="btn btn-outline-dark rounded-0 my-4 text-center">
+        <button id="btn-items" class="btn btn-outline-dark rounded-0 my-4 text-center">
           View All Products
             </button>
             </div>
-      </div>
+     
     </main>
 
     
@@ -228,7 +259,7 @@
             <div class="card position-relative">
               <div class="card-text">Sleeve denim mini dress</div>
               <button class="btn card-text my-3">Shop now</button>
-              <img src="https://via.placeholder.com/547x630" alt="" />
+              <img class="cover-img" src="https://via.placeholder.com/547x630" alt="" />
             </div>
           </div>
         <div class="col-md p-1">
@@ -237,14 +268,14 @@
             <div class="card position-relative">
               <div class="card-text">Sleeve denim mini dress</div>
               <button class="btn card-text my-3">Shop now</button>
-              <img src="https://via.placeholder.com/380x310" alt="" />
+              <img class="cover-img" src="https://via.placeholder.com/380x310" alt="" />
             </div>
           </div>
           <div class="col-md p-1">  
             <div class="card position-relative">
               <div class="card-text">Sleeve denim mini dress</div>
               <button class="btn card-text my-3">Shop now</button>
-            <img src="https://via.placeholder.com/380x310" alt="" />
+            <img class="cover-img" src="https://via.placeholder.com/380x310" alt="" />
             </div>
           </div>
         </div>
@@ -252,7 +283,7 @@
           <div class="card position-relative">
             <div class="card-text">Sleeve denim mini dress</div>
             <button class="btn card-text my-3">Shop now</button>
-            <img src="https://via.placeholder.com/769x310" alt="" />
+            <img class="cover-img" src="https://via.placeholder.com/769x310" alt="" />
           </div>
         </div>
       </div>
@@ -279,7 +310,7 @@
           <i class="fab fa-facebook-square"></i>
           <i class="fab fa-instagram-square"></i>
           <i class="fab fa-pinterest-p"></i>
-          <p><i class="far fa-copyright"></i> All rights reserved</p>  
+          <p><span id="footerDate">1410</span><i class="far fa-copyright"></i> All rights reserved</p>  
         </div>
         <div class="col">
           <a href="#">Returns Polict</a>
