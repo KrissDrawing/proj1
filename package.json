@@ -12,8 +12,9 @@
   "author": "Krzysztof Zięcina",
   "license": "ISC",
   "dependencies": {
-    "webpack-cli": "^3.3.11",
-    "webpack": "^4.42.1"
+    "axios": "^0.19.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

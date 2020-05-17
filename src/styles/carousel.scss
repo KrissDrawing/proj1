@@ -1,51 +1,30 @@
 .btn-prev {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 5%;
   transform: translateY(-50%);
 }
 
 .btn-next {
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: 5%;
   transform: translateY(-50%);
 }
-.carousel-container {
-  background-color: rgb(0, 255, 0);
-  width: 80%;
+.carousel__container {
+  width: 70%;
   display: flex;
   margin: auto;
 }
 
-.carousel-slide {
+.carousel__slide {
   display: flex;
   width: 100%;
-  // display: inline-flex;
+  height: 100%;
+  overflow: visible;
+
   > .item {
     min-width: 200px;
     margin: 20px;
   }
-  // width: 100%;
-  // display: grid;
-  // grid-template-columns: repeat(4, 1fr);
 }
-
-// .test {
-//   display: flex;
-//   // overflow-x: scroll;
-//   > .item {
-//     min-width: 200px;
-//     margin: 20px;
-//   }
-// }
-
-// .main {
-//   height: 424px;
-//   // width: 100%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   // overflow-x: scroll;
-//   background-color: #263a49;
-// }
