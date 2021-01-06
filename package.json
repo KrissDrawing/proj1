@@ -12,7 +12,7 @@
   "author": "Krzysztof Zięcina",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
